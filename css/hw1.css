@@ -1,8 +1,10 @@
 *{
 box-sizing: border-box;
 font-size: 105%;}
-header{
-    background-image:url('images/flywheel.JPG');
+   
+    
+header{ background-image:url('flywheel.JPG');background-image:url('images/flywheel.JPG');
+    background-image:url('file:///c:/Users/lmax/Desktop/web dev/images/flywheel.JPG');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 20px;
