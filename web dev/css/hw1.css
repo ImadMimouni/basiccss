@@ -1,124 +1,64 @@
-/*best viewed on a regular PC monitor*/
-body {
+*{
+box-sizing: border-box;
+font-size: 105%;}
+header{
+    background-image:url('file:///c:/Users/lmax/Desktop/web dev/images/flywheel.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    
+}
+header h1{    text-align: center;
+    text-transform: uppercase;
+    color: white;
     padding: 10px;
-    margin: 10px;
-    font-size: 120%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
 }
-
-
-header {
-    background-color:#bdb76b;
-    background-image: url("../images/flywheel.jpg");
-    padding: 8px 15px 15px 15px;
-	font-family: sans-serif;
-	clear: both;
+body{
+    margin: 20px;
 }
-
-a.active{
-    background-color:white;
-    opacity:1;
-  }
-
 nav{
-	text-align: center;
+    text-align: center;
 }
+nav a{  display: inline-block;
 
-nav a {
-    display: inline-block;
-    width: 17%;
-    margin-right: 2%;
-    margin-bottom: 20px;
-    margin-left: 2%;
+    background-color: rgba(255, 254, 254, 0.473);
     padding: 10px;
-    text-align: center;
-    color: #000;
-    background: #FFF;
-    border-radius: 5px;
     text-decoration: none;
-    opacity: 0.5;
+    color: black;
+    width: 17%;
+    margin: 10px;
+    border-radius: 8px;
+
 }
+a:hover {
+    background-color: rgba(139, 139, 139, 0.644);
+  }
+a:focus{
+    background-color: rgba(139, 139, 139, 0.877);
 
-h1 {
-    color:#F0FFFF;
-    font-size: 150%;
-    text-align:center;
-    text-transform: uppercase;
 }
+a:active{
+    background-color: rgba(139, 139, 139, 0.877);
 
-h2 {
-    color:#000;
-    text-transform: uppercase;
 }
+h2{
+    font-size: 140%;
 
-section {
-    background-color:#FFF;
-    width:690px;    
 }
-
-a {
-    color:#000;
-    background-color:#cfcfcf;
-}
-
-a.active {
-    background-color: #FFF;
-   }
-
-.left {
+section{   
+    margin: 20px;
     display: inline-block;
-    background: #bdb76b;
-    width: 20%;
-    margin: 10px auto;
-    height: 1000px;
-}
-
-.right {
-    display: inline-block;
-    width: 70%;
-    vertical-align: top;
-}
-
-.left img {
-    display: block;
-    border: 1px solid #000;
     width: 80%;
-    margin: 10px auto;
 }
+aside{
+    background-color: rgb(211, 211, 211);
+float: left;
+height: 800px;}
+aside img{
+    display:block;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid black;
 
-table {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
-    font-weight: 500;
-    line-height: 150%;
-    width: 90%;
-    margin: 0 auto;
-    background-color: #f7f3c3;
 }
-
-th {
-    border-bottom: 3px solid #302d04;
-    background: linear-gradient(#9e951a, #dbd13d); 
-    border-radius: 5px 5px 0px 0px;
-    box-shadow: 2px 4px #66600d;
-}
-
-td {
-    padding: 2px;
-    color:#302d04;
-    background-color: #f7f3c3;
-    border: 2px solid #fff;
-    border-radius: 2px;
-    text-align: center;
-    text-shadow: 1px 1px;
-    opacity: 0.6;
-}
-
-td:first-child {
-    text-align: left;
-}
-
-td:hover {
-    opacity: 1;
-}
-
